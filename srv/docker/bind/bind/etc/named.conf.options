@@ -1,6 +1,6 @@
 options {
 	directory "/var/cache/bind";
-
+        allow-query {  any; };
 	// If there is a firewall between you and nameservers you want
 	// to talk to, you may need to fix the firewall to allow multiple
 	// ports to talk.  See http://www.kb.cert.org/vuls/id/800113
@@ -22,6 +22,7 @@ options {
 
 	listen-on { any; };
 	forwarders {
+		8.8.8.8;
 		77.88.8.8;
 		};
 };
