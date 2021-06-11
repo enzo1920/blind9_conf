@@ -1,11 +1,11 @@
 $ttl 38400
 telcolab.local.	IN	SOA	7a886dd33c08.telcolab.local. adam\.morkovich.gmail.com. (
-			1616141677
+			1616141679
 			10800
 			3600
 			604800
 			38400 )
 telcolab.local.	IN	NS	7a886dd33c08.telcolab.local.
-7a886dd33c08.telcolab.local.	IN	A	192.168.204.109
+7a886dd33c08.telcolab.local.	IN	A	192.168.204.108
 7a886dd33c08.telcolab.local.	IN	NS	7a886dd33c08.telcolab.local.
-smdp.telcolab.local.	IN	A	192.168.204.187
+a1s-sm-dp.telcolab.local.	IN	A	192.168.204.187
